@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <string.h>
 
+// 现在是在MacBook上添加的注释，测试一下能否反应到外部 
 //添加网络socket 相关的头文件  最重要的是在 vscode 里面 输入框还是 不跟手
 //这里 arpa/inet.h 内部包含了 socket.h 
 
@@ -11,6 +12,8 @@
 
 int main()
 { 
+
+    
     //1.创建用于通信的套接字
     int fd = socket(AF_INET,SOCK_STREAM,0);
     if(fd == -1)

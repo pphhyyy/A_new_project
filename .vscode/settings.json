@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "threadpool,c": "cpp"
+        "threadpool,c": "cpp",
+        "stdlib.h": "c"
     }
 }
